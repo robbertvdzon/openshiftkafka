@@ -10,4 +10,4 @@ EXPOSE 9092
 
 WORKDIR /home/jboss/kafka
 
-ENTRYPOINT ["/home/jboss/kafka/bin/kafka-server-start.sh  config/server.properties"]
+ENTRYPOINT ["/home/jboss/kafka/bin/kafka-server-start.sh  /home/jboss/kafka/config/server.properties"]
